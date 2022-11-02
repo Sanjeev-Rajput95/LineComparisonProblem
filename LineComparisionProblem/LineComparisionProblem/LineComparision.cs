@@ -38,11 +38,16 @@ namespace LineComparisionProblem
 
             if (length_Of_1stLine == length_Of_2ndLine)
             {
-                Console.WriteLine("\n Both lines in equal length");
+                Console.WriteLine("\nBoth lines in equal length");
+            }
+            if (length_Of_1stLine > length_Of_2ndLine)
+            {
+                Console.WriteLine("\n 1st line is greater than 2nd line ");
             }
             else
             {
-                Console.WriteLine("\n Both lines are not equal in length.");
+                Console.WriteLine("\n  2nd line is greater than 1st line ");
+
             }
         }
     }
